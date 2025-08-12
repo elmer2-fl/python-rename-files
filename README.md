@@ -13,10 +13,10 @@ A Python CLI utility to rename files in a dataset based on a provided Excel mapp
 - Unit tests with pytest.
 
 ## Installation
-- pip install -r requirements.txt
+   `pip install -r requirements.txt`
 
 ## Usage
-# Dry-run
-- python -m rename_tool /path/to/demo_dataset mapping.xlsx
-# Commit changes
-- python -m rename_tool /path/to/demo_dataset mapping.xlsx --commit
+- Dry-run
+   `python -m rename_tool /path/to/demo_dataset mapping.xlsx`
+- Commit changes
+   `python -m rename_tool /path/to/demo_dataset mapping.xlsx --commit`
