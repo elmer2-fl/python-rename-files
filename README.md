@@ -16,7 +16,7 @@ A Python CLI utility to rename files in a dataset based on a provided Excel mapp
    `pip install -r requirements.txt`
 
 ## Usage
-- Dry-run
+### Dry-run
    `python -m rename_tool /path/to/demo_dataset mapping.xlsx`
-- Commit changes
+### Commit changes
    `python -m rename_tool /path/to/demo_dataset mapping.xlsx --commit`
